@@ -12,8 +12,7 @@ test_data <- h2o.importFile("../../project/1-data/test_data.csv")
 class(df)
 summary(df)
 h2o.nacnt(df)
-df <- h2o.na_omit(df)
-df
+
 
 cor(df)
 
